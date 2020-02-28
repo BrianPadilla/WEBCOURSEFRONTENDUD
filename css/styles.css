@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap');
+
+body {
+    background: #7986cb;
+    color: #ffca28;
+    font-family: 'Odibee Sans', sans-serif;
+    font-weight: 300 !important; /* !important se usa para intentar aplicar a todo elemento */
+}
+
+body > header > h3{ /*specificity* body tiene de hijo a header y header tiene de hijo a h3*/
+    background: lightpink;
+    color: lime;
+    font-family: 'Odibee Sans', sans-serif;
+    font-weight: 500;
+}
+
+h3 {
+    color: aquamarine;
+}
+
+h1{
+    font-family: 'Odibee Sans', sans-serif;
+    font-weight: 500;
+    
+}
+
+#HeaderConID {
+    border: 5px solid black;
+    position: relative;
+    width: 100%;
+    background:transparent;
+    
+}
+
+#HeaderConID::before{
+    content: "( ͡° ͜ʖ ͡°)";
+    color: red;
+    display: block;
+    position: absolute;
+    top: 10px;
+}
+
+#Historias-Top {
+    width: 1000px;
+    margin: auto;
+}
+
+article {
+    width: 500px;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 10px 5px 5px 5px rgb(0, 0, 0, .5) ;
+    
+}
+
+video{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+a{
+    text-decoration: underline line-through overline;
+}
+
+p{
+    word-spacing: 4px;
+    text-align: center;
+    text-shadow: 5px 5px 1px#000;
+}
+
+
+
+.imagenarticulo{
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    background-size: cover !important;
+}
+
+.linkbold{
+    font-family: 'Bitter','sans-serif';
+    font-weight: bold;
+}
+
+a:hover,a.linkbold:hover{
+    color: brown;
+}
+
+.miinput{
+    display: block;
+    width: 90%;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+
+.miinput:focus{
+    background: rgb(185, 243, 177);
+    color: rgb(2, 53, 2);
+    outline: none;
+}
+
+article:active{
+    opacity: .4;
+}
