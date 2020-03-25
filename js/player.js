@@ -10,15 +10,7 @@ var src = document.getElementsByName("mysource");
 var duration;
 var index = 0;
 var canciones =
-["https://github.com/CaboPrivate/SoundtracksREPO/blob/master/Child%20of%20Light/Child%20of%20Light%20Aurora.mp3?raw=true"
-,
-"https://github.com/CaboPrivate/SoundtracksREPO/blob/master/Child%20of%20Light/Child%20of%20Light%20Aurora%5B1%5D.mp3?raw=true"
-,
-"https://github.com/CaboPrivate/SoundtracksREPO/blob/master/Child%20of%20Light/Child%20of%20Light%20Aurora%5B2%5D.mp3?raw=true"
-,
-"https://github.com/CaboPrivate/SoundtracksREPO/blob/master/Child%20of%20Light/Child%20of%20Light%20Bolmus%20Populi.mp3?raw=true"
-,
-"https://github.com/CaboPrivate/SoundtracksREPO/blob/master/Child%20of%20Light/Child%20of%20Light%20Boss%20Battle.mp3?raw=true"]
+["https://i0000.clarodrive.com/s/fqE4YSMiqaW4anw?path=%2FN"]
 pauseButton.style.visibility = "hidden";
 
 var timelineWidth = timeline.offsetWidth - playhead.offsetWidth;
